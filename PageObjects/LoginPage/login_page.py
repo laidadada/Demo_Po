@@ -16,3 +16,5 @@ class LoginPage(BasePage):
         doc = '登录页面_登录功能错误信息_获取错误信息'
         # self.wait_eleVisible(loc.error_msg_loc)
         return self.get_element_text(loc.error_msg_loc, doc)
+
+    #测试
