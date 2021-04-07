@@ -17,4 +17,4 @@ class LoginPage(BasePage):
         # self.wait_eleVisible(loc.error_msg_loc)
         return self.get_element_text(loc.error_msg_loc, doc)
 
-    #测试
+    #测试01
